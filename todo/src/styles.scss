@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    font-family: 'Kreon', serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:#ece4b7;
+}
+
+.header, .footer{
+    height: 10vh;
+    width: 100vw;
+    background-color:#E6AA68;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 5vw;
+   
+}
+
+
+.container-pages{
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    background-color:rgba(255, 255, 255, 0.317)
+
+}
+
+.task:hover{
+    opacity: 1;
+    transform: translateX(7px);
+    font-size: 1.6rem;
+    font-weight: 900;
+    transition: ease-in-out;
+    transition-duration: 0.15s;
+   
+}
+.task{
+    font-family: 'Poor Story', cursive;
+    font-size: 1.4rem;
+   
+    min-width: 500px;
+    margin-top: 5px;
+    padding-inline: 2%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:0.3rem;
+    text-decoration: none;
+    opacity: 0.9; 
+}
+
+
+
+.btn{
+    border-radius: 5%;
+    box-shadow: 10px 7px 17px -9px rgba(0, 0, 0, 0.362);
+    outline: none;
+    font-weight: bold;
+    padding:0.1rem 1rem;
+    border: none;
+    margin-inline: 2px;
+}
+
+
