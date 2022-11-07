@@ -1,6 +1,6 @@
 .add-btn{
-    background-color: rgb(68, 92, 33);
-    color: rgb(211, 206, 206);
+    background-color: hsl(288, 69%, 37%);
+    color: rgb(246, 246, 246);
     font-weight: 900;
 }
 div{
@@ -10,4 +10,11 @@ div{
         border: none;
         box-shadow: 1px 3px 3px -9px rgba(0, 0, 0, 0.712);
         };
+}
+.add-btn:active {
+    zoom: 105%;
+    background-color:hsl(321, 57%, 61%);
+    transition: ease-in-out;
+    transition-duration: 0.2;
+
 }

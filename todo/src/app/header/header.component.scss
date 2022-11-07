@@ -7,7 +7,7 @@
 
 
     .logo{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         background-color: black;
         color: white;
         display: flex;
@@ -25,13 +25,29 @@
         a{
             margin-right: 3px;
 
+           
+
         }
-        a:focus {
-            background-color: yellow;
-          }
+       
     }
+    button{
+        background-color: #7aacb7;
+    color: rgb(19, 19, 19);
+    font-weight: 900;
+    box-shadow: none;
+    }
+   button:focus{
+    background-color:#F2EDCE;
+   }
 
+}
 
+img{
+    width: auto;
+    height: 30px;
+    object-fit: cover;
+    margin-inline: 5px;
+    
 
 }
 

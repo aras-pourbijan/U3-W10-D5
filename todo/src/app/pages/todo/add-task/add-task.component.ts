@@ -20,6 +20,7 @@ export class AddTaskComponent implements OnInit {
     if (title.length === 0) {
       alert('please insert a new task!')
     } else {
+
       this.TodosService.addTask(title)
       this.title = ''
 

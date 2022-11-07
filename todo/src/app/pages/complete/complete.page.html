@@ -2,10 +2,11 @@
     
       <ul>
         <li class="complete-task task" *ngFor="let item of completeList; let i=index">
-            <p> ✔✔✔ {{i+1}} - #{{item.id}} {{item.title}}  </p>
+            <p> ✔✔✔ {{i+1}} - {{item.id}} {{item.title}}  </p>
             <div>
                 <!-- <button class="btn btn-delete" (click)="recoverTask(item)">x</button> -->
-                <button class="btn btn-checked">unckecked</button>
+                <button class="btn btn-unchecked" (click)="unchecked(item)">unckecked</button>
+                <button class="btn btn-delete" (click)="deletecompleteTask(item)">x</button>
             </div>
         </li>
       </ul> 

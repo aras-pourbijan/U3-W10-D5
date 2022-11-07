@@ -15,8 +15,12 @@ export class CompletePage implements OnInit {
   completeList: Todo[] = this.TodoSerivce.completeList
   ngOnInit(): void {
   }
-  recoverTask(item: Todo) {
-    this.TodoSerivce.recoverIt(item)
+  unchecked(item: Todo) {
+    this.TodoSerivce.unchecked(item)
+  }
+
+  deletecompleteTask(item: Todo) {
+    this.TodoSerivce.deletecompleteTask(item)
   }
 
 }

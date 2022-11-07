@@ -12,7 +12,8 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color:#ece4b7;
+    background: rgb(255,246,234);
+background: radial-gradient(circle, rgba(255,246,234,1) 31%, rgba(236,228,183,1) 81%);
 }
 
 .header, .footer{
@@ -34,7 +35,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 5%;
-    background-color:rgba(255, 255, 255, 0.317)
+  
 
 }
 
@@ -72,6 +73,21 @@ body{
     padding:0.1rem 1rem;
     border: none;
     margin-inline: 2px;
+}
+.btn-delete{
+    border-radius: 30%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.btn-checked{
+    border-radius: 30%;
+    background-color:#7FB069;
+    color:white;
+}
+.btn-unchecked{
+    border-radius: 30%;
+    background-color:#CF5120;
+    color:white;
 }
 
 

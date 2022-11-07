@@ -23,4 +23,7 @@ export class ListComponent implements OnInit {
   completeTask(item: Todo) {
     this.TodosService.checkTask(item);
   }
+  deleteTodoTask(item: Todo) {
+    this.TodosService.deleteTodoTask(item)
+  }
 }

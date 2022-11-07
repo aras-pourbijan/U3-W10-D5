@@ -4,8 +4,8 @@
             <li class="todo-task task" *ngFor="let item of todoList; let i=index">
                 <p>    {{i+1}} - #{{item.id}} {{item.title}}</p>
                 <div>
-                    <button class="btn btn-delete" (click)="checkedTask(item)">check</button>
-                    <button class="btn btn-checked">Done</button>
+                    <button class="btn btn-checked" (click)="checkedTask(item)">check</button>
+                    <button class="btn btn-delete" (click)="deleteTodoTask(item)">x</button>
                 </div>
             </li>
            
