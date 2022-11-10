@@ -1,0 +1,6 @@
+<p>user-list works!</p>
+
+<p *ngFor="let item of userlist">
+  {{item.name}} - {{item.email}}
+  <button (click)="removeUser(item.id)" >Remove</button>
+</p>
